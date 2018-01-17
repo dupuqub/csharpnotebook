@@ -31,5 +31,5 @@ public class Script01 : MonoBehaviour {
 
 	// A função abaixo mostra como receber parâmetros
 	//
-	float Soma ( float a , float b ) {return a + b;}
+	float Soma (float a, float b) {return a + b;}
 }
