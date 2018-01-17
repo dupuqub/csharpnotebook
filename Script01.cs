@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Script01 : MonoBehaviour {
 
-	// Funções não podem ser chamadas fora de "Awake", "Start" or "Update"
+	// Funções não podem ser chamadas fora de "Awake", "Start" ou "Update"
 	//
 	void Start () {
 
