@@ -24,7 +24,7 @@ public class Script02 : MonoBehaviour {
 			if (TituloNovo != TituloVelho)
 			{
 				TituloVelho = TituloNovo;
-				Debug.Log (TituloVelho);
+				Debug.Log (TituloNovo);
 			}
 
 			SaudeAvatar --;
