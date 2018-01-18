@@ -15,14 +15,16 @@ public class Script00 : MonoBehaviour {
 	// Essa é a função de pré-inicialização (específica)
 	// Essa função roda mesmo com o script desabilitado
 	//
-	void Awake () {
+	void Awake ()
+	{
 		MeuValor = 500;
 		Debug.Log (MeuValor);
 	}
 
 	// Essa é a função de inicialização (específica)
 	//
-	void Start () {
+	void Start ()
+	{
 		Debug.Log (MeuValor);
 		Debug.Log (MeuValor + OutroValor);
 		Debug.Log (MeuValor + FraseJoia);
@@ -31,7 +33,8 @@ public class Script00 : MonoBehaviour {
 
 	// Essa é a função de repetição (específica)
 	//
-	void Update () {
+	void Update ()
+	{
 		MeuValor ++;
 		Debug.Log (MeuValor);
 	}

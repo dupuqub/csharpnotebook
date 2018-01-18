@@ -6,8 +6,8 @@ public class Script01 : MonoBehaviour {
 
 	// Funções não podem ser chamadas fora de "Awake", "Start" ou "Update"
 	//
-	void Start () {
-
+	void Start ()
+	{
 		NinjaQuieto ();
 
 		Debug.Log (IntBonitao ());
