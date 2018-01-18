@@ -30,7 +30,7 @@ public class Script02 : MonoBehaviour
 			SaudeAvatar --;
 
 			// "gameObject" é o objeto que carrega o script
-			// 3(segundos) é o delay da função
+			// 3 (segundos) é o delay da função
 			//
 			if( SaudeAvatar == 0 )
 			{

@@ -10,9 +10,9 @@ public class Script03 : MonoBehaviour
 
 		// Isso é um "for"
 		//
-		for( int Counter = 3; Counter > 0; Counter -- )
+		for( int Index = 3; Index > 0; Index -- )
 		{
-			Debug.Log( Counter );
+			Debug.Log( Index );
 		}
 
 		// Isso é um "while" FINITO
