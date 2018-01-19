@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Script06 : MonoBehaviour
 {
-	// Variáveis podem ser públicas (editáveis pela UI da unity)
+	// Variáveis globais podem ser públicas (editáveis pela UI da unity)
 	//
-	public int    Saude       = 0;
-	public string Nome        = "Hermonidus";
-	public int[]  MuitaCoisa  = { 0, 1, 2, 3, 4 };
+	public int    Saude      = 0;
+	public string Nome       = "Hermonidus";
+	public int[]  MuitaCoisa = { 0, 1, 2, 3, 4 };
 
 	// Abaixo são exemplos de listas
 	//
@@ -31,10 +31,11 @@ public class Script06 : MonoBehaviour
 		Debug.Log( MensagemLista );
 		Debug.Log( MinhaLista.Count ); // Como o "Length" dos arrays
 
-		// Para expor o index dos elementos da lista, usa-se um "for" comum
+		// Usa-se um "for" comum para expor o index dos elementos da lista
 		//
 		for( var Index = 0; Index < MinhaLista.Count; Index ++ )
 		{
 			Debug.Log( Index + " : " + MinhaLista[ Index ] );
 		}
+	}
 }
