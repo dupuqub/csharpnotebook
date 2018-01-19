@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Script06 : MonoBehaviour
 {
-	// Variáveis globais podem ser públicas (editáveis pela UI da unity)
+	// Variáveis globais podem ser públicas (editáveis pela UI do motor Unity)
 	//
 	public int    Saude      = 0;
 	public string Nome       = "Hermonidus";
