@@ -30,7 +30,11 @@ public class Script03 : MonoBehaviour
 		{
 			MeuNumero ++;
 
-			if( MeuNumero == 20 ){ Debug.Log( "infinito completo" ); break; }
+			if( MeuNumero == 20 )
+			{
+				Debug.Log( "infinito completo" );
+				break;
+			}
 		}
 
 		// "this" é o próprio script
