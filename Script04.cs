@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,7 +20,7 @@ public class Script04 : MonoBehaviour
 
 		// Arrays podem ser a base de um tipo especial de "for"
 		//
-		foreach( int Item in ArraySimples ){ Debug.Log( Item ); }
+		foreach( int Item in ArraySimples ) Debug.Log( Item );
 
 		// Itens de um Array podem ter seus valores mudados dessa maneira
 		//

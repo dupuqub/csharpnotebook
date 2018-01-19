@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,7 +21,7 @@ public class Script03 : MonoBehaviour
 		{
 			MeuNumero ++;
 
-			if( MeuNumero == 10 ){ Debug.Log( "finito completo" ); }
+			if( MeuNumero == 10 ) Debug.Log( "finito completo" );
 		}
 
 		// Isso é um "while" INFINITO (precisa de "break")

@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,10 +16,10 @@ public class Script02 : MonoBehaviour
 		{
 			// Cadeia de "if", "else if" e "else"
 			//
-			if     ( SaudeAvatar < 10 ){ TituloNovo = "Destruído"; }
-			else if( SaudeAvatar < 20 ){ TituloNovo = "Machucado"; }
-			else if( SaudeAvatar < 30 ){ TituloNovo = "Abalado"; }
-			else                       { TituloNovo = "Perfeito"; }
+			if     ( SaudeAvatar < 10 ) TituloNovo = "Destruído";
+			else if( SaudeAvatar < 20 ) TituloNovo = "Machucado";
+			else if( SaudeAvatar < 30 ) TituloNovo = "Abalado";
+			else                        TituloNovo = "Perfeito";
 
 			if( TituloNovo != TituloVelho )
 			{
