@@ -23,6 +23,9 @@ public class Script07 : MonoBehaviour
 		//
 		var VariosFios = Fios.Concat( OutrosFios );
 
+		// Aqui "Count()" usa parênteses porque "VariosFios" é um "Enumerable"
+		// (por falta de referência mais detalhada)
+		//
 		Debug.Log( VariosFios.Count() ); // 9 = 5 (Fios) + 4 (OutrosFios)
 
 		// LINQ retorna "Enumerables" por isso "Count()" e não "Length"
