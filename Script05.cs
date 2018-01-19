@@ -16,8 +16,8 @@ public class Script05 : MonoBehaviour
 		var MinhaVerdade = false;
 		var MinhaLista   = new[]{ "a", "b", "c", "d" };
 		var OutraLista   = new[]{ 2, -13, 3.14, 7 };
-		var UltimaLista  = new string[];
-		var MaisUmaLista = new string[];
+		var UltimaLista  = new string[ 0 ];
+		var MaisUmaLista = new string[ 0 ];
 
 		Debug.Log( MinhaLista );
 

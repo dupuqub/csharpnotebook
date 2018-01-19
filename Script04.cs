@@ -4,32 +4,32 @@ using UnityEngine;
 
 public class Script04 : MonoBehaviour
 {
-	// Isso é uma lista PRONTA
+	// Isso é um array PRONTO
 	//
-	int[] ListaSimples = { 9, 8, 7, 6, 4 };
+	int[] ArraySimples = { 9, 8, 7, 6, 4 };
 
-	// Isso é uma lista CRUA (cheia de zeros)
+	// Isso é um array CRU (cheio de zeros)
 	//
-	int[] OutraLista = new int[ 5 ];
+	int[] OutroArray = new int[ 5 ];
 
 	void Start()
 	{
-		// Assim se acessa valores de uma lista
+		// Assim se acessa valores de um array
 		//
-		Debug.Log( ListaSimples[ 0 ] + ListaSimples[ 1 ] );
+		Debug.Log( ArraySimples[ 0 ] + ArraySimples[ 1 ] );
 
-		// Listas podem ser a base de um tipo especial de "for"
+		// Arrays podem ser a base de um tipo especial de "for"
 		//
-		foreach( int Item in ListaSimples ){ Debug.Log( Item ); }
+		foreach( int Item in ArraySimples ){ Debug.Log( Item ); }
 
-		// Itens de uma lista podem ter seus valores mudados dessa maneira
+		// Itens de um Array podem ter seus valores mudados dessa maneira
 		//
-		OutraLista[ 3 ] = 12;
+		OutroArray[ 3 ] = 12;
 
-		Debug.Log( OutraLista[ 3 ] );
+		Debug.Log( OutroArray[ 3 ] );
 
-		// O tamanho das listas é acessível
+		// O tamanho das Arrays é acessado via "Length"
 		//
-		Debug.Log( OutraLista.Length );
+		Debug.Log( OutroArray.Length );
 	}
 }
