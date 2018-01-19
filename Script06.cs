@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -37,5 +37,10 @@ public class Script06 : MonoBehaviour
 		{
 			Debug.Log( Index + " : " + MinhaLista[ Index ] );
 		}
+
+		// Listas podem ser esvaziadas
+		//
+		MinhaLista.Clear();
+		Debug.Log( MinhaLista.Count ); // 0
 	}
 }
