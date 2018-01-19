@@ -25,7 +25,7 @@ public class Script07 : MonoBehaviour
 
 		Debug.Log( VariosFios.Count() ); // 9 = 5 (Fios) + 4 (OutrosFios)
 
-		// LINQ retorna listas (Linq.Enumerable) por isso "Count()" e não "Length"
+		// LINQ retorna "Enumerables" por isso "Count()" e não "Length"
 		//
 		Debug.Log( FiosCurtos.GetType() );
 		Debug.Log( VariosFios.GetType() );
@@ -42,7 +42,7 @@ public class Script07 : MonoBehaviour
 		Debug.Log( Numeros.Contains( 1 ) ); // False
 		Debug.Log( Numeros.Contains( 2 ) ); // True
 
-		// Inclusive achar itens em comum ou distintos entre listas, etc
+		// Inclusive achar itens em comum ou distintos entre grupos, etc
 		//
 		var Comuns =
 			from   Item
@@ -60,5 +60,9 @@ public class Script07 : MonoBehaviour
 
 		Debug.Log( Comuns.Sum() ); // 16 = 14 + 2
 		Debug.Log( Distintos.Sum() ); // 8 = 3 + 5
+
+		// "Distintos" não é uma lista, portanto acesso aos seus itens é diferente
+		//
+		Debug.Log( Distintos.ElementAt( 0 ) ); // 3
 	}
 }
