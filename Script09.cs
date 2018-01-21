@@ -6,7 +6,7 @@ public class Script09 : MonoBehaviour
 {
 	// Essas variáveis podem ser modificadas no editor do Unity
 	//
-	public float    velocidade = 5;
+	public float    velocidade = 5f;
 	public string[] controle   = { "a", "d", "w", "s" };
 
 	// O movimento de uma peça será controlado pelo teclado
@@ -19,8 +19,8 @@ public class Script09 : MonoBehaviour
 		var sentido  = new Dictionary< string, string >();
 		var novo_hor = "";
 		var novo_ver = "";
-		var novo_x   = 0;
-		var novo_y   = 0;
+		var novo_x   = 0f;
+		var novo_y   = 0f;
 
 		// Rodam todos os testes referentes ao teclado
 		//
