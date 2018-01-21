@@ -16,7 +16,7 @@ public class Script06 : MonoBehaviour
 	{
 		// Além de arrays existem listas
 		//
-		var MinhaLista = new List<float>();
+		var MinhaLista = new List< float >();
 
 		MinhaLista.Add( 3.21f );
 		MinhaLista.Add( 12 );

@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Linq; // É necessário declarar o uso da biblioteca LINQ
 
 public class Script08 : MonoBehaviour
 {
