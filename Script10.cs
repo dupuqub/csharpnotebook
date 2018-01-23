@@ -12,7 +12,8 @@ public class Player : MonoBehaviour
 	SpriteRenderer Renderizador;
 	Vector3 Direcao;
 
-	// Rigidbody2D é um componente que deve ser adicionado pela UI do Unity
+	// "Rigidbody2D" é um componente que deve ser adicionado pela UI do Unity
+	// "SpriteRenderer" é nativo em um "Sprite"
 	//
 	void Start()
 	{
@@ -22,12 +23,20 @@ public class Player : MonoBehaviour
 
 	void Update()
 	{
+		// "left" = seta da esquerda
+		//
 		if( Input.GetKey( "left" ) )
 		{
+			// "AddForce" é o método adequado quando mexendo com física
+			// Mexer diretamente em "transform.position" pode gerar "clipping"
+			//
 			Corpo.AddForce( new Vector2( -Forca, 0 ) );
 			Direcao = new Vector3( -1f, 0, 0 );
 			Renderizador.flipX = true;
 		}
+
+		// "right" = seta da direita
+		//
 		else if( Input.GetKey( "right" ) )
 		{
 			Corpo.AddForce( new Vector2( Forca, 0 ) );
